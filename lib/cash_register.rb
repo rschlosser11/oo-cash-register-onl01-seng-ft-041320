@@ -17,6 +17,6 @@ class CashRegister
   end
 
   def items
-    
+    all_items = [];
   end
 end
