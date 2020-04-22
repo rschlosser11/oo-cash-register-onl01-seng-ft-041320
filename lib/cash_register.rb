@@ -24,6 +24,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    @total -= @last_transaction
+    @@all_items.length == 0 ? @total = 0.to_f : @total -= @last_transaction
   end
 end
