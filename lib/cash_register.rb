@@ -21,5 +21,6 @@ class CashRegister
   def items
     all_items = []
     @quantity.times {all_items << @title}
+    all_items
   end
 end
